@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+                  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+                  rel="stylesheet"
+            />
+
+            <link
+                  rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="./images/favicon-32x32.png"
+            />
+
+            <link
+                  rel="stylesheet"
+                  href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+                  integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+                  crossorigin="anonymous"
+            />
+
+            <link rel="stylesheet" href="./styles/stylesheet.css" />
+
+            <title>Frontend Mentor | Componente de introdução com formulário de inscrição</title>
+      </head>
+      <body>
+            <section>
+                  <div class="content">
+                        <h1>Aprenda a programar observando os outros</h1>
+
+                        <p>
+                              Veja como desenvolvedores experientes resolvem problemas em
+                              tempo real. Assistir a tutoriais com script é ótimo,
+                              mas entender como os desenvolvedores pensam é
+                              inestimável.
+                        </p>
+                  </div>
+
+                  <div class="wrapper">
+                        <div class="subscribe__pricing">
+                              <p>
+                                    <span>Experimente grátis por 7 dias</span> Depois apenas R$20 por mês.
+                              </p>
+                        </div>
+
+                        <form class="subscribe__form" id="form">
+                              <div class="form-control">
+                                    <input aria-label="Primeiro nome"
+                                          type="text"
+                                          placeholder="Primeiro Nome"
+                                          id="primeiro-nome"
+                                    />
+                                    <i class="fas fa-check-circle"></i>
+                                    <img
+                                          src="./images/icon-error.svg"
+                                          alt="error icon"
+                                    />
+                                    <small> </small>
+                              </div>
+
+                              <div class="form-control">
+                                    <input aria-label="Último Nome"
+                                          type="text"
+                                          placeholder="Último Nome"
+                                          id="ultimo-nome"
+                                    />
+                                    <i class="fas fa-check-circle"></i>
+                                    <img
+                                          src="./images/icon-error.svg"
+                                          alt="error icon"
+                                    />
+                                    <small> </small>
+                              </div>
+
+                              <div class="form-control">
+                                    <input aria-label="email"
+                                          type="text"
+                                          placeholder="Email Address"
+                                          id="email"
+                                    />
+                                    <i class="fas fa-check-circle"></i>
+                                    <img
+                                          src="./images/icon-error.svg"
+                                          alt="error icon"
+                                    />
+                                    <small> </small>
+                              </div>
+
+                              <div class="form-control">
+                                    <input aria-label="senha"
+                                          type="senha"
+                                          placeholder="Senha"
+                                          id="senha"
+                                          minlength="8"
+                                          autocomplete="on"
+                                    />
+                                    <i class="fas fa-check-circle"></i>
+                                    <img
+                                          src="./images/icon-error.svg"
+                                          alt="error icon"
+                                    />
+                                    <small> </small>
+                              </div>
+
+                              <button 
+                                    type="submit"
+                                    id="submit-btn"
+                                    aria-label="submit-button"
+                              >
+                                    Solicite sua avaliação gratuita
+                              </button>
+                              <p class="terms">
+                                    Ao clicar no botão, você concorda com
+                                    nosso <span>Termos e Serviços</span>
+                              </p>
+                              <div class="blur">
+                                    <h2></h2>
+                              </div>
+                        </form>
+                  </div>
+            </section>
+            <script src="js/app.js"></script>
+      </body>
+</html>
